@@ -19,10 +19,16 @@
 
 .image {
   padding: 20px;
-  border-radius: 50%;
+  border-radius: 35%;
 }
 
 .list {
   margin-top: 0;
   width: 50%;
+}
+
+@media (max-width: 930px) {
+  .recipe {
+    width: 100%;
+  }
 }
